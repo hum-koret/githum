@@ -1,0 +1,39 @@
+{
+  "name": "githum",
+  "version": "0.1.0",
+  "private": true,
+  "author": "kjarbr",
+  "dependencies": {
+    "file-saver": "^1.3.8",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "react-scripts": "1.1.5"
+  },
+  "devDependencies": {
+    "electron": "^2.0.9",
+    "electron-builder": "^20.28.4",
+    "foreman": "^3.0.1"
+  },
+  "scripts": {
+    "dev": "nf start",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "electron": "electron .",
+    "ebuild": "npm run build && node_modules/.bin/build"
+  },
+  "description": "Github nedlasting for HUM-koret",
+  "homepage": "./",
+  "main": "electron/main.js",
+  "build": {
+    "extends": null,
+    "productName": "NoterGithub",
+    "appId": "com.example.app",
+    "electronVersion": "1.8.2",
+    "files": [
+      "build/**/*",
+      "electron/*"
+    ]
+  }
+}

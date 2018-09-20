@@ -1,0 +1,45 @@
+* {
+	font-family: Arial, sans-serif;
+}
+
+h1 {
+	font-size: 1.8rem;
+}
+
+.ingress {
+	font-size: 1.1rem;
+}
+
+.limit {
+	padding: 1rem 1.4rem;
+}
+
+.sangliste {
+	list-style: none;
+	padding: 0;
+}
+
+.sangliste .sang {
+	padding: 0 0.2rem;
+}
+
+.sangliste .sang a {
+	display: inline-block;
+	padding: 0.4rem 0.6rem;
+	text-decoration: none;
+	color: #444;
+	font-size: 1rem;
+}
+
+.sangliste .sang a:hover {
+	color: #000;
+	background-color: #eee;
+	border-bottom: 1px solid #888;
+}
+
+@media (min-width: 768px) {
+	.limit {
+		margin: 0 auto;
+		width: 620px;
+	}
+}
