@@ -8,4 +8,4 @@
 * Execute this command to start the application: `npm run dev`
 * Develop your application
 * Finally, to compile the application use the command: `npm run ebuild`
-* The newly built application is in the /dist folder.
+* The newly built application is in the `/dist` folder.
